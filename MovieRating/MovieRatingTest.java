@@ -47,7 +47,7 @@ public class MovieRatingTest {
 
     @Test
     @DisplayName("(numRatings: 4, averageRating: 75) vs. (numRatings: 6, averageRating: 70)")
-    public void test0() {
+    public void test0() {ƒ
         MovieRating first = new MovieRating("");
         for (int i = 0; i < 4; i++) {
             first.addRating(75);
